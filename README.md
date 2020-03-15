@@ -8,6 +8,15 @@ The methodology that I'm following is based on
 
 run the following command to get set up
 
+create an access token by doing the following steps in
+[this gist](https://gist.github.com/wgottschalk/362906291c94081e3dbe434ac424fa07)
+
+then run the following commands:
+
 ```
-git clone --separate-git-dir=$HOME/.dotfiles https://github.com/wgottschalk/.dotfiles.git ~
+git clone --bare https://github.com/wgottschalk/dotfiles.git $HOME/.dotfiles
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+dotfiles checkout
+dotfiles config --local status.showUntrackedFiles no
 ```
+
