@@ -7,12 +7,17 @@ tap 'homebrew/bundle'
 tap 'schniz/tap'
 
 # Binaries
+brew 'coreutils' # Those that come with MacOS are out of date
 brew 'ripgrep'
 brew 'tree'
 brew 'jq'
 brew 'fzf'
 brew 'neovim'
-brew 'mas'
+brew 'mas' # Mac App Store Manager
+brew 'git-town'
+brew 'fd'
+brew 'bat' 
+brew 'tree'
 
 # Cask Binaries
 cask 'google-cloud-sdk'
@@ -29,9 +34,16 @@ cask 'iterm2'
 cask 'spotify'
 cask 'notion'
 cask 'visual-studio-code'
+cask 'graphql-playground'
 
 # Appstore Apps
 mas 'Xcode', id: 497799835
+mas 'Giphy Capture', id: 668208984
 
 # Fonts
 cask 'font-inconsolata'
+cask 'font-oxygen-mono'
+cask 'font-fira-code'
+cask 'font-fira-mono'
+cask 'font-fira-mono-for-powerline' 
+

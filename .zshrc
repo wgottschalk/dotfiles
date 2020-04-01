@@ -1,10 +1,8 @@
 export EDITOR="nvim"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
-# python
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-
 # fnm
+eval "`fnm env --multi`"
 export PATH=/Users/wgottschalk/.fnm/current/bin:$PATH
 export FNM_MULTISHELL_PATH=/Users/wgottschalk/.fnm/current
 export FNM_DIR=/Users/wgottschalk/.fnm
