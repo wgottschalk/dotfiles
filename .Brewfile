@@ -21,6 +21,7 @@ brew 'tree'
 brew 'tokei'
 brew 'jenv'
 brew 'gradle'
+brew 'hugo'
 
 # Cask Binaries
 cask 'google-cloud-sdk'
@@ -40,6 +41,7 @@ cask 'notion'
 cask 'visual-studio-code'
 cask 'graphql-playground'
 cask 'insomnia'
+cask 'firefox-developer-edition'
 
 # Appstore Apps
 mas 'Xcode', id: 497799835
