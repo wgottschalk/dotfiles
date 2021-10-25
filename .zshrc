@@ -22,6 +22,6 @@ _fnm_autoload_hook () {
 
 add-zsh-hook chpwd _fnm_autoload_hook \
   && _fnm_autoload_hook
-    
 
-
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
