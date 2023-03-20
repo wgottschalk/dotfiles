@@ -26,13 +26,13 @@ brew 'pass'
 
 # Cask Binaries
 cask 'google-cloud-sdk'
-cask 'java'
+# cask 'java'
 
 # Development
-brew 'node'
+# brew 'node'
 brew 'fnm'
-brew 'yarn'
-brew 'python'
+# brew 'yarn'
+# brew 'python'
 
 # Apps
 cask 'aerial'
@@ -46,7 +46,7 @@ cask 'insomnia'
 cask 'firefox-developer-edition'
 
 # Appstore Apps
-mas 'Xcode', id: 497799835
+# mas 'Xcode', id: 497799835
 mas 'Giphy Capture', id: 668208984
 
 # Fonts
