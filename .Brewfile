@@ -30,6 +30,7 @@ brew 'starship'
 # Cask Binaries
 cask 'google-cloud-sdk'
 # cask 'java'
+cask 'raycast'
 
 # Development
 # brew 'node'
