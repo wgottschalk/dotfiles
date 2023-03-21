@@ -1,6 +1,5 @@
 # Taps
 tap 'homebrew/cask'
-tap 'homebrew/cask-eid'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
@@ -23,6 +22,10 @@ brew 'jenv'
 brew 'gradle'
 brew 'hugo'
 brew 'pass'
+brew 'gh'
+
+# oh-my-zsh theme
+brew 'starship'
 
 # Cask Binaries
 cask 'google-cloud-sdk'
